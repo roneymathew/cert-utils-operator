@@ -2,8 +2,6 @@ module github.com/redhat-cop/cert-utils-operator
 
 go 1.21
 
-toolchain go1.21.3
-
 require (
 	github.com/go-logr/logr v1.4.1
 	github.com/grantae/certinfo v0.0.0-20170412194111-59d56a35515b
@@ -64,7 +62,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
-	github.com/prometheus/common v0.52.2 // indirect
+	github.com/prometheus/common v0.52.3 // indirect
 	github.com/prometheus/procfs v0.13.0 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
